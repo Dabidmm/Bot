@@ -1,1 +1,12 @@
-["Sí", "No", "Tal vez"]
+[
+  "Sí",
+  "No",
+  "Tal vez",
+  "No puedo predecir ahora",
+  "Es probable",
+  "No cuentes con ello",
+  "Concéntrate y vuelve a preguntar",
+  "Mi respuesta es no",
+  "Sí, definitivamente",
+  "Pregunta de nuevo más tarde"
+]
