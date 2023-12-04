@@ -1,10 +1,12 @@
 // fiel.js
-function calcularFidelidad(usuario) {
-    const per = Math.floor(Math.random() * 100);
+const botFunctions = {
+    calcularFidelidad: function (usuario) {
+        const per = Math.floor(Math.random() * 100);
 
-    return usuario.toLowerCase() === "dabid_mm"
-        ? "@Dabid_MM, eres 0% fiel"
-        : `@${usuario}, eres ${per}% fiel`;
-}
+        return usuario.toLowerCase() === "dabid_mm"
+            ? "@Dabid_MM, eres 0% fiel"
+            : `@${usuario}, eres ${per}% fiel`;
+    },
+};
 
-calcularFidelidad("$(touser)");
+botFunctions.calcularFidelidad("$(touser)");
